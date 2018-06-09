@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Player /> Should render 1`] = `
+<div
+  className="sc-bdVaJa eMDnEn"
+>
+  <div
+    className="sc-bwzfXH loHIGP"
+    fontWeight={700}
+  />
+  <p
+    className="sc-htpNat fFzFcR"
+  >
+    Darth Vader
+  </p>
+</div>
+`;

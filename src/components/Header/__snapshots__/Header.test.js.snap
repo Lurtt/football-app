@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Should render 1`] = `
+<header
+  className="sc-bdVaJa dRkfdz"
+>
+  <h2
+    className="sc-bwzfXH ddMwrD"
+    letterSpacing="0.05rem"
+  >
+    Dark Side
+  </h2>
+  <h3
+    className="sc-htpNat beRMen"
+  >
+    Formation 
+    333
+  </h3>
+</header>
+`;

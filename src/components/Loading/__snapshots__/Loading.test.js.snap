@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loading /> Should render 1`] = `
+<img
+  className="sc-bdVaJa hzhSHT"
+  src="SVG_CONTENT_HERE"
+/>
+`;

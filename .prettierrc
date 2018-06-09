@@ -1,0 +1,14 @@
+{
+  "trailingComma": "es5",
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ".{prettier,babel}rc",
+      "options": { "parser": "json" }
+    }
+  ]
+}

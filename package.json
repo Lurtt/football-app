@@ -1,0 +1,68 @@
+{
+  "name": "webpack-academy",
+  "version": "2.0.0",
+  "description": "basic webpack configuration example",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/url-here",
+    "type": "git"
+  },
+  "author": "Lukas Pospisil",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn webpack-dev-server --env.env dev",
+    "build": "yarn webpack --env.env prod",
+    "prebuild": "rimraf dist && yarn format && yarn lint",
+    "test": "jest --watch",
+    "precommit": "lint-staged",
+    "format": "yarn prettier --write",
+    "lint": "eslint --ext .js src --fix",
+    "prettier": "prettier *.js './**/*.{js,json}'",
+    "debug": "node --inspect-brk ./node_modules/webpack/bin/webpack.js",
+    "webpack": "node ./node_modules/webpack/bin/webpack.js",
+    "webpack-dev-server": "webpack-dev-server --port 9000 --hot"
+  },
+  "lint-staged": {
+    "*.js": ["yarn format", "yarn lint", "git add"]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "8",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "4.x",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "lint-staged": "^7.1.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "prettier": "^1.12.1",
+    "react-test-renderer": "^16.3.2",
+    "regenerator-runtime": "^0.11.1",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "prop-types": "^15.6.1",
+    "pusher-js": "^4.2.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "styled-components": "^3.2.6"
+  }
+}

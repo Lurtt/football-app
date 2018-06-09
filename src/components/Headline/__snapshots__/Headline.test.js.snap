@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Headline /> Should render h1 by default 1`] = `
+<h1
+  className="sc-bdVaJa cZJVNZ"
+>
+  Headline h1
+</h1>
+`;
+
+exports[`<Headline /> Should render h2 1`] = `
+<h2
+  className="sc-bwzfXH qoDLU"
+>
+  Headline h2
+</h2>
+`;

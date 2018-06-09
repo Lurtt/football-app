@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pitch /> Should render 1`] = `
+<div
+  className="sc-ifAKCX gvVUmM"
+>
+  <div
+    className="sc-bxivhb geHUii"
+  >
+    <div
+      className="sc-bwzfXH lmmTFA"
+    >
+      <Player component
+        player={
+          Object {
+            "formation_place": 1,
+            "name": "Hugo Lloris",
+            "position": "GK",
+            "type": "Goalkeeper",
+          }
+        }
+      />
+    </div>
+    <div
+      className="sc-bwzfXH lmmTFA"
+    >
+      <Player component
+        player={
+          Object {
+            "formation_place": 2,
+            "name": "Serge Aurier",
+            "position": "RB",
+            "type": "Defender",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
