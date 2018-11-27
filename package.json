@@ -10,7 +10,7 @@
   "author": "Lukas Pospisil",
   "license": "MIT",
   "scripts": {
-    "start": "yarn webpack-dev-server --env.env dev",
+    "dev": "yarn webpack-dev-server --env.env dev",
     "build": "yarn webpack --env.env prod",
     "prebuild": "rimraf dist && yarn format && yarn lint",
     "test": "jest --watch",
