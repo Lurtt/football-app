@@ -10,7 +10,7 @@
   "author": "Lukas Pospisil",
   "license": "MIT",
   "scripts": {
-    "start": "serve --single ./build",
+    "start": "serve --single ./dist",
     "dev": "yarn webpack-dev-server --env.env dev",
     "build": "yarn webpack --env.env prod",
     "prebuild": "rimraf dist && yarn format && yarn lint",
